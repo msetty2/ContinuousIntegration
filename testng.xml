@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Selenium Automation Suite">
+    <listeners>
+        <listener class-name="MadhuTestingWorld.ExtentReports.listeners.TestListener"/>
+        <listener class-name="MadhuTestingWorld.ExtentReports.listeners.RetryListener"/>
+    </listeners>
+
+    <test name="Login Functionality Tests">
+        <classes>
+            <class name="MadhuTestingWorld.ExtentReports.LoginTest"/>
+        </classes>
+    </test>
+</suite>
